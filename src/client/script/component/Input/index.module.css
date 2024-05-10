@@ -1,0 +1,14 @@
+.input
+  height: 29px
+  font-size: 23px
+  border: 2.2px solid rgb(233, 233, 233)
+  border-radius: 4px
+  padding: 5px 15px 5px 15px
+.input:focus
+  outline: none
+  border: 0
+  box-shadow: 1.4px 1.4px 1.4px 1.4px rgba(83, 83, 222, 0.36),
+              -1.4px -1.4px 1.4px 1.4px rgba(83, 83, 222, 0.36)
+  background-color: rgb(255, 255, 255)
+.input::placeholder
+  color: rgb(195, 195, 195)

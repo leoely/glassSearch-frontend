@@ -1,0 +1,20 @@
+.home
+  display: flex
+  flex-direction: row
+  align-items: start
+  border-bottom: 2.5px solid rgb(240, 240, 240)
+.banner
+  display: flex
+  height: 450px
+  margin-bottom: 10px
+  box-shadow: 2px 2px 2px 2px rgba(200, 200, 200, 0.5)
+.inputgrp
+  align-items: center
+  display: inline-flex
+  margin: 15px 5px 15px 5px
+.textareagrip
+  align-items: start
+  display: inline-flex
+  margin: 15px 5px 15px 5px
+.textareagrip label
+  margin-top: 8px
