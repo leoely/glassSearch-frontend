@@ -2,6 +2,7 @@ import React from 'react';
 import Input from '~/client/script/component/Input';
 import Label from '~/client/script/component/Label';
 import TextArea from '~/client/script/component/TextArea';
+import Button from '~/client/script/component/Button';
 import style from './index.module.css';
 
 class Home extends React.Component {
@@ -22,6 +23,9 @@ class Home extends React.Component {
             <Label for="document">document:</Label>
             <TextArea name="document" placeholder="document" />
           </div>
+        </div>
+        <div className={style.bottom}>
+          <Button>submit</Button>
         </div>
       </>
     );
